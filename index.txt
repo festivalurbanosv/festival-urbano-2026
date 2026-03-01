@@ -18,7 +18,24 @@
     <p class="lead">La música que mueve la ciudad</p>
   </div>
 </section>
+<section class="container my-5">
+  <div class="row">
+    <div class="col-md-6">
+      <h2>Sobre el evento</h2>
+      <p>Un festival de música urbana con los mejores artistas del momento.</p>
+    </div>
+    <div class="col-md-6">
+      <h2>Artistas invitados</h2>
+      <p>Trap, reggaeton, rap y mucho más.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-dark text-white text-center p-3">
+  <p>© 2026 Festival Urbano</p>
+</footer>
 
 </body>
 </html>
+
 
