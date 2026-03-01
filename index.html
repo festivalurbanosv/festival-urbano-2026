@@ -3,39 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <title>Festival Urbano 2026</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
     <a class="navbar-brand" href="#">Festival Urbano</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Artistas</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Entradas</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+      </ul>
+    </div>
   </div>
 </nav>
 
 <section class="bg-dark text-white text-center p-5">
   <div class="container">
-    <h1 class="display-4">Festival Urbano 2026</h1>
-    <p class="lead">La música que mueve la ciudad</p>
+    <h1 class="display-3 fw-bold">Festival Urbano 2026</h1>
+    <p class="lead">Trap · Reggaeton · Rap · Drill</p>
+    <a href="#" class="btn btn-primary btn-lg mt-3">Comprar Entradas</a>
   </div>
 </section>
+
+
 <section class="container my-5">
-  <div class="row">
+  <div class="row align-items-center">
     <div class="col-md-6">
-      <h2>Sobre el evento</h2>
-      <p>Un festival de música urbana con los mejores artistas del momento.</p>
+      <h2>Sobre el Evento</h2>
+      <p>El Festival Urbano 2026 reúne a los artistas más importantes del panorama nacional e internacional en una experiencia única de música y cultura urbana.</p>
+      <p>Se celebrará el 20 de julio en el Estadio Municipal.</p>
     </div>
     <div class="col-md-6">
-      <h2>Artistas invitados</h2>
-      <p>Trap, reggaeton, rap y mucho más.</p>
+      <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063" class="img-fluid rounded" alt="Festival">
     </div>
   </div>
 </section>
 
-<footer class="bg-dark text-white text-center p-3">
-  <p>© 2026 Festival Urbano</p>
+
+<section class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Artistas Destacados</h2>
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Yung beef</h5>
+            <p class="card-text">Referente del trap nacional con millones de reproducciones.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Quevedo</h5>
+            <p class="card-text">Reggaeton y energía, Top 1 de España actualmente.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Cruz Cafuné</h5>
+            <p class="card-text">Gran rapero de las Islas Canarias, presentando su nuevo disco.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="bg-dark text-white text-center p-4">
+  <p>© 2026 Festival Urbano | Síguenos en redes sociales</p>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-
